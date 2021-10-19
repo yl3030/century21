@@ -93,73 +93,90 @@
       <div class="news pb-100" id="news">
         <h2 class="title">最新消息</h2>
         <div>
-          <div class="news news-group">
+            <!-- 第一則 -->
+          <div class="news news-group" data-bs-toggle="modal" data-bs-target="#news-popup-1">
             <div class="news-flex">
               <div class="news-flex-date">
                 <h5>2021.10.05</h5>
               </div>
               <div class="news-flex-title">
                 <p>
-                  房地合一稅2.0六大修法重點一覽表文宣內容房地合一稅2.0六大修法重點一覽表文宣內容
+                  房地合一稅2.0六大修法重點一覽表文宣內容
                 </p>
               </div>
               <img src="./public/img/arrow.svg" alt="" class="news-icon" />
             </div>
           </div>
-          <div class="news news-group">
+          <!-- 第一則 end -->
+
+          <!-- 第二則 -->
+          <div class="news news-group" data-bs-toggle="modal" data-bs-target="#news-popup-2">
             <div class="news-flex">
               <div class="news-flex-date">
-                <h5>2021.10.05</h5>
+                <h5>2021.10.06</h5>
               </div>
               <div class="news-flex-title">
                 <p>
-                  房地合一稅2.0六大修法重點一覽表文宣內容房地合一稅2.0六大修法重點一覽表文宣內容
+                    為什麼你應該（幾乎總是）把網站 Logo 放在左上角？
                 </p>
               </div>
               <img src="./public/img/arrow.svg" alt="" class="news-icon" />
             </div>
           </div>
-          <div class="news news-group">
+          <!-- 第二則 end -->
+
+          <!-- 第三則 -->
+          <div class="news news-group" data-bs-toggle="modal" data-bs-target="#news-popup-3">
             <div class="news-flex">
               <div class="news-flex-date">
-                <h5>2021.10.05</h5>
+                <h5>2021.10.07</h5>
               </div>
               <div class="news-flex-title">
                 <p>
-                  房地合一稅2.0六大修法重點一覽表文宣內容房地合一稅2.0六大修法重點一覽表文宣內容
+                    首先，放左邊的理由是什麼？
                 </p>
               </div>
               <img src="./public/img/arrow.svg" alt="" class="news-icon" />
             </div>
           </div>
-          <div class="news news-group">
+          <!-- 第三則 end -->
+
+          <!-- 第四則 -->
+          <div class="news news-group" data-bs-toggle="modal" data-bs-target="#news-popup-4">
             <div class="news-flex">
               <div class="news-flex-date">
-                <h5>2021.10.05</h5>
+                <h5>2021.10.08</h5>
               </div>
               <div class="news-flex-title">
                 <p>
-                  房地合一稅2.0六大修法重點一覽表文宣內容房地合一稅2.0六大修法重點一覽表文宣內容
+                    放在右邊的話，可能會傷害品牌認知
                 </p>
               </div>
               <img src="./public/img/arrow.svg" alt="" class="news-icon" />
             </div>
           </div>
-          <div class="news news-group">
+          <!-- 第四則 end -->
+
+          <!-- 第五則 -->
+          <div class="news news-group" data-bs-toggle="modal" data-bs-target="#news-popup-5">
             <div class="news-flex">
               <div class="news-flex-date">
-                <h5>2021.10.05</h5>
+                <h5>2021.10.09</h5>
               </div>
               <div class="news-flex-title">
                 <p>
-                  房地合一稅2.0六大修法重點一覽表文宣內容房地合一稅2.0六大修法重點一覽表文宣內容
+                放在中間的話，會讓網站難以使用
                 </p>
               </div>
               <img src="./public/img/arrow.svg" alt="" class="news-icon" />
             </div>
           </div>
+          <!-- 第五則 end -->
         </div>
       </div>
+      <?php include("./news-popup.php"); ?>
+
+      
 
       <!-- 推薦好案 -->
       <div class="reccomand" id="recc">
@@ -171,7 +188,9 @@
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
                   <div class="recc d-flex flex-wrap">
-                    <div class="content">
+
+                    <!-- 第一則 -->
+                    <div class="content" data-bs-toggle="modal" data-bs-target="#recc-popup-1">
                       <div class="content-box">
                         <img
                           class="pic"
@@ -189,16 +208,19 @@
                         </div>
                       </div>
                     </div>
-                    <div class="content">
+                    <!-- 第一則 end -->
+
+                    <!-- 第二則 -->
+                    <div class="content" data-bs-toggle="modal" data-bs-target="#recc-popup-2">
                       <div class="content-box">
                         <img
                           class="pic"
-                          src="./public/img/case-pic-4.png"
+                          src="./public/img/case-pic-1.png"
                           alt=""
                         />
                         <div class="hover-box"></div>
                         <div class="recc-title d-flex align-items-center">
-                          <h4 class="m-0">達麗創世紀</h4>
+                          <h4 class="m-0">亞哥文青硯</h4>
                           <img
                             class="arrow"
                             src="./public/img/arrow-white.svg"
@@ -207,11 +229,13 @@
                         </div>
                       </div>
                     </div>
+                    <!-- 第二則 end -->
                   </div>
                 </div>
                 <div class="swiper-slide">
                   <div class="recc d-flex flex-wrap">
-                    <div class="content">
+                    <!-- 第三則 -->
+                    <div class="content" data-bs-toggle="modal" data-bs-target="#recc-popup-3">
                       <div class="content-box">
                         <img
                           class="pic"
@@ -220,7 +244,7 @@
                         />
                         <div class="hover-box"></div>
                         <div class="recc-title d-flex align-items-center">
-                          <h4 class="m-0">達麗創世紀</h4>
+                          <h4 class="m-0">惠宇觀市政</h4>
                           <img
                             class="arrow"
                             src="./public/img/arrow-white.svg"
@@ -229,16 +253,19 @@
                         </div>
                       </div>
                     </div>
-                    <div class="content">
+                    <!-- 第三則 end -->
+
+                    <!-- 第四則 -->
+                    <div class="content" data-bs-toggle="modal" data-bs-target="#recc-popup-4">
                       <div class="content-box">
                         <img
                           class="pic"
-                          src="./public/img/case-pic-4.png"
+                          src="./public/img/case-pic-3.png"
                           alt=""
                         />
                         <div class="hover-box"></div>
                         <div class="recc-title d-flex align-items-center">
-                          <h4 class="m-0">達麗創世紀</h4>
+                          <h4 class="m-0">精銳FUN未來</h4>
                           <img
                             class="arrow"
                             src="./public/img/arrow-white.svg"
@@ -247,11 +274,34 @@
                         </div>
                       </div>
                     </div>
+                    <!-- 第四則 end -->
                   </div>
                 </div>
                 <div class="swiper-slide">
                   <div class="recc d-flex flex-wrap">
-                    <div class="content">
+                    <!-- 第五則 -->
+                    <div class="content" data-bs-toggle="modal" data-bs-target="#recc-popup-5">
+                      <div class="content-box">
+                        <img
+                          class="pic"
+                          src="./public/img/case-pic-4.png"
+                          alt=""
+                        />
+                        <div class="hover-box"></div>
+                        <div class="recc-title d-flex align-items-center">
+                          <h4 class="m-0">遠雄寬寓</h4>
+                          <img
+                            class="arrow"
+                            src="./public/img/arrow-white.svg"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <!-- 第五則 end -->
+
+                    <!-- 第六則 -->
+                    <div class="content" data-bs-toggle="modal" data-bs-target="#recc-popup-6">
                       <div class="content-box">
                         <img
                           class="pic"
@@ -269,29 +319,13 @@
                         </div>
                       </div>
                     </div>
-                    <div class="content">
-                      <div class="content-box">
-                        <img
-                          class="pic"
-                          src="./public/img/case-pic-4.png"
-                          alt=""
-                        />
-                        <div class="hover-box"></div>
-                        <div class="recc-title d-flex align-items-center">
-                          <h4 class="m-0">達麗創世紀</h4>
-                          <img
-                            class="arrow"
-                            src="./public/img/arrow-white.svg"
-                            alt=""
-                          />
-                        </div>
-                      </div>
-                    </div>
+                    <!-- 第六則 end -->
                   </div>
                 </div>
                 <div class="swiper-slide">
                   <div class="recc d-flex flex-wrap">
-                    <div class="content">
+                    <!-- 第七則 -->
+                    <div class="content" data-bs-toggle="modal" data-bs-target="#recc-popup-7">
                       <div class="content-box">
                         <img
                           class="pic"
@@ -300,7 +334,7 @@
                         />
                         <div class="hover-box"></div>
                         <div class="recc-title d-flex align-items-center">
-                          <h4 class="m-0">達麗創世紀</h4>
+                          <h4 class="m-0">亞哥文青硯</h4>
                           <img
                             class="arrow"
                             src="./public/img/arrow-white.svg"
@@ -309,7 +343,10 @@
                         </div>
                       </div>
                     </div>
-                    <div class="content">
+                    <!-- 第七則 end -->
+
+                    <!-- 第八則 -->
+                    <div class="content" data-bs-toggle="modal" data-bs-target="#recc-popup-8">
                       <div class="content-box">
                         <img
                           class="pic"
@@ -318,7 +355,7 @@
                         />
                         <div class="hover-box"></div>
                         <div class="recc-title d-flex align-items-center">
-                          <h4 class="m-0">達麗創世紀</h4>
+                          <h4 class="m-0">惠宇觀市政</h4>
                           <img
                             class="arrow"
                             src="./public/img/arrow-white.svg"
@@ -327,6 +364,7 @@
                         </div>
                       </div>
                     </div>
+                    <!-- 第八則 end -->
                   </div>
                 </div>
               </div>
@@ -338,6 +376,7 @@
         </div>
         <img class="style-bg w-100" src="./public/img/bg-style-3.svg" alt="" />
       </div>
+      <?php include("./reccomand-popup.php"); ?>
 
       <!-- 案件介紹 -->
       <div class="introduce" id="intro">
@@ -345,74 +384,43 @@
 
         <ul class="nav nav-tabs intro-tab" id="introTab" role="tablist">
           <li class="nav-item" role="presentation">
-            <button
-              class="nav-link active"
-              id="intro-tab-1"
-              data-bs-toggle="tab"
-              data-bs-target="#tab-1"
-              type="button"
-              role="tab"
-              aria-controls="tab-1"
-              aria-selected="true"
-            >
-              西屯逢甲
-            </button>
+            <button class="nav-link active" id="intro-tab-1" data-bs-toggle="tab" data-bs-target="#tab-1" type="button" role="tab" aria-controls="tab-1" aria-selected="true">西屯逢甲</button>
           </li>
           <li class="nav-item" role="presentation">
-            <button
-              class="nav-link"
-              id="intro-tab-2"
-              data-bs-toggle="tab"
-              data-bs-target="#tab-2"
-              type="button"
-              role="tab"
-              aria-controls="tab-2"
-              aria-selected="false"
-            >
-              12期重劃區
-            </button>
+            <button class="nav-link" id="intro-tab-2" data-bs-toggle="tab" data-bs-target="#tab-2" type="button" role="tab" aria-controls="tab-2" aria-selected="false">12期重劃區</button>
           </li>
           <li class="nav-item" role="presentation">
-            <button
-              class="nav-link"
-              id="intro-tab-3"
-              data-bs-toggle="tab"
-              data-bs-target="#tab-3"
-              type="button"
-              role="tab"
-              aria-controls="tab-3"
-              aria-selected="false"
-            >
-              水湳經貿園區
-            </button>
+            <button class="nav-link" id="intro-tab-3" data-bs-toggle="tab" data-bs-target="#tab-3" type="button" role="tab" aria-controls="tab-3" aria-selected="false">水湳經貿園區</button>
           </li>
           <li class="nav-item" role="presentation">
-            <button
-              class="nav-link"
-              id="intro-tab-4"
-              data-bs-toggle="tab"
-              data-bs-target="#tab-4"
-              type="button"
-              role="tab"
-              aria-controls="tab-4"
-              aria-selected="false"
-            >
-              11期重劃區
-            </button>
+            <button class="nav-link" id="intro-tab-4" data-bs-toggle="tab" data-bs-target="#tab-4" type="button" role="tab" aria-controls="tab-4" aria-selected="false">11期重劃區</button>
           </li>
         </ul>
         <div class="tab-content" id="introTabContent">
-          <div
-            class="tab-pane fade show active"
-            id="tab-1"
-            role="tabpanel"
-            aria-labelledby="intro-tab-1"
-          >
+          <!-- 西屯逢甲 -->
+          <div class="tab-pane fade show active" id="tab-1" role="tabpanel" aria-labelledby="intro-tab-1">
             <div class="intro-content">
               <div class="container">
                 <div class="row">
                   <div class="col-md-3 col-6 px-2">
-                    <div class="introduce-group">
+                    <div class="introduce-group" data-bs-toggle="modal" data-bs-target="#intro-popup-1_1">
+                      <div class="introduce-flex">
+                        <div class="introduce-img">
+                          <img src="./public/img/case-pic-2.png" alt="" />
+                        </div>
+                        <div class="introduce-text-group">
+                          <p>
+                            「達麗創世紀」位於台中市北屯區順平二街與順平路口，由達麗建設事業股份有限公司投資
+                          </p>
+                        </div>
+                      </div>
+                      <div class="introduce-title">
+                        <h4>達麗創世紀</h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3 col-6 px-2">
+                    <div class="introduce-group" data-bs-toggle="modal" data-bs-target="#intro-popup-1_2">
                       <div class="introduce-flex">
                         <div class="introduce-img">
                           <img src="./public/img/case-pic-1.png" alt="" />
@@ -429,10 +437,10 @@
                     </div>
                   </div>
                   <div class="col-md-3 col-6 px-2">
-                    <div class="introduce-group">
+                    <div class="introduce-group" data-bs-toggle="modal" data-bs-target="#intro-popup-1_3">
                       <div class="introduce-flex">
                         <div class="introduce-img">
-                          <img src="./public/img/case-pic-1.png" alt="" />
+                          <img src="./public/img/case-pic-4.png" alt="" />
                         </div>
                         <div class="introduce-text-group">
                           <p>
@@ -446,10 +454,10 @@
                     </div>
                   </div>
                   <div class="col-md-3 col-6 px-2">
-                    <div class="introduce-group">
+                    <div class="introduce-group" data-bs-toggle="modal" data-bs-target="#intro-popup-1_4">
                       <div class="introduce-flex">
                         <div class="introduce-img">
-                          <img src="./public/img/case-pic-1.png" alt="" />
+                          <img src="./public/img/case-pic-3.png" alt="" />
                         </div>
                         <div class="introduce-text-group">
                           <p>
@@ -463,10 +471,10 @@
                     </div>
                   </div>
                   <div class="col-md-3 col-6 px-2">
-                    <div class="introduce-group">
+                    <div class="introduce-group" data-bs-toggle="modal" data-bs-target="#intro-popup-1_5">
                       <div class="introduce-flex">
                         <div class="introduce-img">
-                          <img src="./public/img/case-pic-1.png" alt="" />
+                          <img src="./public/img/case-pic-2.png" alt="" />
                         </div>
                         <div class="introduce-text-group">
                           <p>
@@ -480,24 +488,7 @@
                     </div>
                   </div>
                   <div class="col-md-3 col-6 px-2">
-                    <div class="introduce-group">
-                      <div class="introduce-flex">
-                        <div class="introduce-img">
-                          <img src="./public/img/case-pic-1.png" alt="" />
-                        </div>
-                        <div class="introduce-text-group">
-                          <p>
-                            「達麗創世紀」位於台中市北屯區順平二街與順平路口，由達麗建設事業股份有限公司投資
-                          </p>
-                        </div>
-                      </div>
-                      <div class="introduce-title">
-                        <h4>達麗創世紀</h4>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-3 col-6 px-2">
-                    <div class="introduce-group">
+                    <div class="introduce-group" data-bs-toggle="modal" data-bs-target="#intro-popup-1_6">
                       <div class="introduce-flex">
                         <div class="introduce-img">
                           <img src="./public/img/case-pic-1.png" alt="" />
@@ -517,17 +508,145 @@
               </div>
             </div>
           </div>
-          <div
-            class="tab-pane fade"
-            id="tab-2"
-            role="tabpanel"
-            aria-labelledby="intro-tab-2"
-          >
+          <!-- 西屯逢甲 end -->
+
+          <!-- 12期重劃區 -->
+          <div class="tab-pane fade" id="tab-2" role="tabpanel" aria-labelledby="intro-tab-2">
+            <div class="intro-content">
+              <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-6 px-2">
+                        <div class="introduce-group" data-bs-toggle="modal" data-bs-target="#intro-popup-2_1">
+                            <div class="introduce-flex">
+                                <div class="introduce-img">
+                                    <img src="./public/img/case-pic-1.png" alt="" />
+                                </div>
+                                <div class="introduce-text-group">
+                                    <p>
+                                    「達麗創世紀」位於台中市北屯區順平二街與順平路口，由達麗建設事業股份有限公司投資
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="introduce-title">
+                                <h4>達麗創世紀</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6 px-2">
+                        <div class="introduce-group" data-bs-toggle="modal" data-bs-target="#intro-popup-2_2">
+                            <div class="introduce-flex">
+                                <div class="introduce-img">
+                                    <img src="./public/img/case-pic-2.png" alt="" />
+                                </div>
+                            <div class="introduce-text-group">
+                                <p>
+                                    「達麗創世紀」位於台中市北屯區順平二街與順平路口，由達麗建設事業股份有限公司投資
+                                </p>
+                            </div>
+                        </div>
+                        <div class="introduce-title">
+                            <h4>達麗創世紀</h4>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6 px-2">
+                        <div class="introduce-group" data-bs-toggle="modal" data-bs-target="#intro-popup-2_3">
+                            <div class="introduce-flex">
+                                <div class="introduce-img">
+                                    <img src="./public/img/case-pic-3.png" alt="" />
+                                </div>
+                                <div class="introduce-text-group">
+                                    <p>
+                                        「達麗創世紀」位於台中市北屯區順平二街與順平路口，由達麗建設事業股份有限公司投資
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="introduce-title">
+                                <h4>達麗創世紀</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6 px-2">
+                        <div class="introduce-group" data-bs-toggle="modal" data-bs-target="#intro-popup-2_4">
+                            <div class="introduce-flex">
+                                <div class="introduce-img">
+                                    <img src="./public/img/case-pic-4.png" alt="" />
+                                </div>
+                                <div class="introduce-text-group">
+                                    <p>
+                                    「達麗創世紀」位於台中市北屯區順平二街與順平路口，由達麗建設事業股份有限公司投資
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="introduce-title">
+                                <h4>達麗創世紀</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 12期重劃區 end -->
+
+          <!-- 水湳經貿園區 -->
+          <div class="tab-pane fade" id="tab-3" role="tabpanel" aria-labelledby="intro-tab-3">
             <div class="intro-content">
               <div class="container">
                 <div class="row">
                   <div class="col-md-3 col-6 px-2">
-                    <div class="introduce-group">
+                    <div class="introduce-group" data-bs-toggle="modal" data-bs-target="#intro-popup-3_1">
+                      <div class="introduce-flex">
+                        <div class="introduce-img">
+                          <img src="./public/img/case-pic-3.png" alt="" />
+                        </div>
+                        <div class="introduce-text-group">
+                          <p>
+                            「達麗創世紀」位於台中市北屯區順平二街與順平路口，由達麗建設事業股份有限公司投資
+                          </p>
+                        </div>
+                      </div>
+                      <div class="introduce-title">
+                        <h4>達麗創世紀</h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3 col-6 px-2">
+                    <div class="introduce-group" data-bs-toggle="modal" data-bs-target="#intro-popup-3_2">
+                      <div class="introduce-flex">
+                        <div class="introduce-img">
+                          <img src="./public/img/case-pic-2.png" alt="" />
+                        </div>
+                        <div class="introduce-text-group">
+                          <p>
+                            「達麗創世紀」位於台中市北屯區順平二街與順平路口，由達麗建設事業股份有限公司投資
+                          </p>
+                        </div>
+                      </div>
+                      <div class="introduce-title">
+                        <h4>達麗創世紀</h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3 col-6 px-2">
+                    <div class="introduce-group" data-bs-toggle="modal" data-bs-target="#intro-popup-3_3">
+                      <div class="introduce-flex">
+                        <div class="introduce-img">
+                          <img src="./public/img/case-pic-4.png" alt="" />
+                        </div>
+                        <div class="introduce-text-group">
+                          <p>
+                            「達麗創世紀」位於台中市北屯區順平二街與順平路口，由達麗建設事業股份有限公司投資
+                          </p>
+                        </div>
+                      </div>
+                      <div class="introduce-title">
+                        <h4>達麗創世紀</h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3 col-6 px-2">
+                    <div class="introduce-group" data-bs-toggle="modal" data-bs-target="#intro-popup-3_4">
                       <div class="introduce-flex">
                         <div class="introduce-img">
                           <img src="./public/img/case-pic-1.png" alt="" />
@@ -544,10 +663,10 @@
                     </div>
                   </div>
                   <div class="col-md-3 col-6 px-2">
-                    <div class="introduce-group">
+                    <div class="introduce-group" data-bs-toggle="modal" data-bs-target="#intro-popup-3_5">
                       <div class="introduce-flex">
                         <div class="introduce-img">
-                          <img src="./public/img/case-pic-1.png" alt="" />
+                          <img src="./public/img/case-pic-3.png" alt="" />
                         </div>
                         <div class="introduce-text-group">
                           <p>
@@ -561,10 +680,10 @@
                     </div>
                   </div>
                   <div class="col-md-3 col-6 px-2">
-                    <div class="introduce-group">
+                    <div class="introduce-group" data-bs-toggle="modal" data-bs-target="#intro-popup-3_6">
                       <div class="introduce-flex">
                         <div class="introduce-img">
-                          <img src="./public/img/case-pic-1.png" alt="" />
+                          <img src="./public/img/case-pic-4.png" alt="" />
                         </div>
                         <div class="introduce-text-group">
                           <p>
@@ -578,10 +697,10 @@
                     </div>
                   </div>
                   <div class="col-md-3 col-6 px-2">
-                    <div class="introduce-group">
+                    <div class="introduce-group" data-bs-toggle="modal" data-bs-target="#intro-popup-3_7">
                       <div class="introduce-flex">
                         <div class="introduce-img">
-                          <img src="./public/img/case-pic-1.png" alt="" />
+                          <img src="./public/img/case-pic-2.png" alt="" />
                         </div>
                         <div class="introduce-text-group">
                           <p>
@@ -595,24 +714,7 @@
                     </div>
                   </div>
                   <div class="col-md-3 col-6 px-2">
-                    <div class="introduce-group">
-                      <div class="introduce-flex">
-                        <div class="introduce-img">
-                          <img src="./public/img/case-pic-1.png" alt="" />
-                        </div>
-                        <div class="introduce-text-group">
-                          <p>
-                            「達麗創世紀」位於台中市北屯區順平二街與順平路口，由達麗建設事業股份有限公司投資
-                          </p>
-                        </div>
-                      </div>
-                      <div class="introduce-title">
-                        <h4>達麗創世紀</h4>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-3 col-6 px-2">
-                    <div class="introduce-group">
+                    <div class="introduce-group" data-bs-toggle="modal" data-bs-target="#intro-popup-3_8">
                       <div class="introduce-flex">
                         <div class="introduce-img">
                           <img src="./public/img/case-pic-1.png" alt="" />
@@ -632,245 +734,69 @@
               </div>
             </div>
           </div>
-          <div
-            class="tab-pane fade"
-            id="tab-3"
-            role="tabpanel"
-            aria-labelledby="intro-tab-3"
-          >
+          <!-- 水湳經貿園區 end -->
+
+          <!-- 11期重劃區 -->
+          <div class="tab-pane fade" id="tab-4" role="tabpanel" aria-labelledby="intro-tab-4">
             <div class="intro-content">
               <div class="container">
                 <div class="row">
-                  <div class="col-md-3 col-6 px-2">
-                    <div class="introduce-group">
-                      <div class="introduce-flex">
-                        <div class="introduce-img">
-                          <img src="./public/img/case-pic-1.png" alt="" />
+                    <div class="col-md-3 col-6 px-2">
+                        <div class="introduce-group" data-bs-toggle="modal" data-bs-target="#intro-popup-4_1">
+                            <div class="introduce-flex">
+                                <div class="introduce-img">
+                                    <img src="./public/img/case-pic-1.png" alt="" />
+                                </div>
+                                <div class="introduce-text-group">
+                                    <p>
+                                    「達麗創世紀」位於台中市北屯區順平二街與順平路口，由達麗建設事業股份有限公司投資
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="introduce-title">
+                                <h4>達麗創世紀</h4>
+                            </div>
                         </div>
-                        <div class="introduce-text-group">
-                          <p>
-                            「達麗創世紀」位於台中市北屯區順平二街與順平路口，由達麗建設事業股份有限公司投資
-                          </p>
-                        </div>
-                      </div>
-                      <div class="introduce-title">
-                        <h4>達麗創世紀</h4>
-                      </div>
                     </div>
-                  </div>
-                  <div class="col-md-3 col-6 px-2">
-                    <div class="introduce-group">
-                      <div class="introduce-flex">
-                        <div class="introduce-img">
-                          <img src="./public/img/case-pic-1.png" alt="" />
+                    <div class="col-md-3 col-6 px-2">
+                        <div class="introduce-group" data-bs-toggle="modal" data-bs-target="#intro-popup-4_2">
+                            <div class="introduce-flex">
+                                <div class="introduce-img">
+                                    <img src="./public/img/case-pic-4.png" alt="" />
+                                </div>
+                            <div class="introduce-text-group">
+                                <p>
+                                    「達麗創世紀」位於台中市北屯區順平二街與順平路口，由達麗建設事業股份有限公司投資
+                                </p>
+                            </div>
                         </div>
-                        <div class="introduce-text-group">
-                          <p>
-                            「達麗創世紀」位於台中市北屯區順平二街與順平路口，由達麗建設事業股份有限公司投資
-                          </p>
+                        <div class="introduce-title">
+                            <h4>達麗創世紀</h4>
                         </div>
-                      </div>
-                      <div class="introduce-title">
-                        <h4>達麗創世紀</h4>
-                      </div>
+                        </div>
                     </div>
-                  </div>
-                  <div class="col-md-3 col-6 px-2">
-                    <div class="introduce-group">
-                      <div class="introduce-flex">
-                        <div class="introduce-img">
-                          <img src="./public/img/case-pic-1.png" alt="" />
-                        </div>
-                        <div class="introduce-text-group">
-                          <p>
-                            「達麗創世紀」位於台中市北屯區順平二街與順平路口，由達麗建設事業股份有限公司投資
-                          </p>
-                        </div>
-                      </div>
-                      <div class="introduce-title">
-                        <h4>達麗創世紀</h4>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-3 col-6 px-2">
-                    <div class="introduce-group">
-                      <div class="introduce-flex">
-                        <div class="introduce-img">
-                          <img src="./public/img/case-pic-1.png" alt="" />
-                        </div>
-                        <div class="introduce-text-group">
-                          <p>
-                            「達麗創世紀」位於台中市北屯區順平二街與順平路口，由達麗建設事業股份有限公司投資
-                          </p>
-                        </div>
-                      </div>
-                      <div class="introduce-title">
-                        <h4>達麗創世紀</h4>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-3 col-6 px-2">
-                    <div class="introduce-group">
-                      <div class="introduce-flex">
-                        <div class="introduce-img">
-                          <img src="./public/img/case-pic-1.png" alt="" />
-                        </div>
-                        <div class="introduce-text-group">
-                          <p>
-                            「達麗創世紀」位於台中市北屯區順平二街與順平路口，由達麗建設事業股份有限公司投資
-                          </p>
-                        </div>
-                      </div>
-                      <div class="introduce-title">
-                        <h4>達麗創世紀</h4>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-3 col-6 px-2">
-                    <div class="introduce-group">
-                      <div class="introduce-flex">
-                        <div class="introduce-img">
-                          <img src="./public/img/case-pic-1.png" alt="" />
-                        </div>
-                        <div class="introduce-text-group">
-                          <p>
-                            「達麗創世紀」位於台中市北屯區順平二街與順平路口，由達麗建設事業股份有限公司投資
-                          </p>
-                        </div>
-                      </div>
-                      <div class="introduce-title">
-                        <h4>達麗創世紀</h4>
-                      </div>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
           </div>
-          <div
-            class="tab-pane fade"
-            id="tab-4"
-            role="tabpanel"
-            aria-labelledby="intro-tab-4"
-          >
-            <div class="intro-content">
-              <div class="container">
-                <div class="row">
-                  <div class="col-md-3 col-6 px-2">
-                    <div class="introduce-group">
-                      <div class="introduce-flex">
-                        <div class="introduce-img">
-                          <img src="./public/img/case-pic-1.png" alt="" />
-                        </div>
-                        <div class="introduce-text-group">
-                          <p>
-                            「達麗創世紀」位於台中市北屯區順平二街與順平路口，由達麗建設事業股份有限公司投資
-                          </p>
-                        </div>
-                      </div>
-                      <div class="introduce-title">
-                        <h4>達麗創世紀</h4>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-3 col-6 px-2">
-                    <div class="introduce-group">
-                      <div class="introduce-flex">
-                        <div class="introduce-img">
-                          <img src="./public/img/case-pic-1.png" alt="" />
-                        </div>
-                        <div class="introduce-text-group">
-                          <p>
-                            「達麗創世紀」位於台中市北屯區順平二街與順平路口，由達麗建設事業股份有限公司投資
-                          </p>
-                        </div>
-                      </div>
-                      <div class="introduce-title">
-                        <h4>達麗創世紀</h4>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-3 col-6 px-2">
-                    <div class="introduce-group">
-                      <div class="introduce-flex">
-                        <div class="introduce-img">
-                          <img src="./public/img/case-pic-1.png" alt="" />
-                        </div>
-                        <div class="introduce-text-group">
-                          <p>
-                            「達麗創世紀」位於台中市北屯區順平二街與順平路口，由達麗建設事業股份有限公司投資
-                          </p>
-                        </div>
-                      </div>
-                      <div class="introduce-title">
-                        <h4>達麗創世紀</h4>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-3 col-6 px-2">
-                    <div class="introduce-group">
-                      <div class="introduce-flex">
-                        <div class="introduce-img">
-                          <img src="./public/img/case-pic-1.png" alt="" />
-                        </div>
-                        <div class="introduce-text-group">
-                          <p>
-                            「達麗創世紀」位於台中市北屯區順平二街與順平路口，由達麗建設事業股份有限公司投資
-                          </p>
-                        </div>
-                      </div>
-                      <div class="introduce-title">
-                        <h4>達麗創世紀</h4>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-3 col-6 px-2">
-                    <div class="introduce-group">
-                      <div class="introduce-flex">
-                        <div class="introduce-img">
-                          <img src="./public/img/case-pic-1.png" alt="" />
-                        </div>
-                        <div class="introduce-text-group">
-                          <p>
-                            「達麗創世紀」位於台中市北屯區順平二街與順平路口，由達麗建設事業股份有限公司投資
-                          </p>
-                        </div>
-                      </div>
-                      <div class="introduce-title">
-                        <h4>達麗創世紀</h4>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-3 col-6 px-2">
-                    <div class="introduce-group">
-                      <div class="introduce-flex">
-                        <div class="introduce-img">
-                          <img src="./public/img/case-pic-1.png" alt="" />
-                        </div>
-                        <div class="introduce-text-group">
-                          <p>
-                            「達麗創世紀」位於台中市北屯區順平二街與順平路口，由達麗建設事業股份有限公司投資
-                          </p>
-                        </div>
-                      </div>
-                      <div class="introduce-title">
-                        <h4>達麗創世紀</h4>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          <!-- 11期重劃區 end -->
         </div>
       </div>
+      <!-- 西屯逢甲 popup -->
+      <?php include("./introduce-popup-1.php"); ?>
+      <!-- 12期重劃區 popup -->
+      <?php include("./introduce-popup-2.php"); ?>
+      <!-- 水湳經貿園區 popup -->
+      <?php include("./introduce-popup-3.php"); ?>
+      <!-- 11期重劃區 popup -->
+      <?php include("./introduce-popup-4.php"); ?>
 
       <!-- 聯絡我們 -->
       <div class="contact" id="contact">
         <img class="w-100" src="./public/img/bg-style-2.svg" alt="" />
         <h2 class="title">聯絡我們</h2>
         <div class="container">
-          <div class="row">
+          <div class="row align-items-center">
             <div class="col-lg-6 d-lg-block d-none">
               <div class="pic">
                 <img src="./public/img/character.png" alt="" />
@@ -890,7 +816,11 @@
                   rows="5"
                 ></textarea>
                 <button>送出</button>
-                <img class="character d-lg-none d-block position-absolute" src="./public/img/character.png" alt="" />
+                <img
+                  class="character d-lg-none d-block position-absolute"
+                  src="./public/img/character.png"
+                  alt=""
+                />
               </form>
             </div>
           </div>
