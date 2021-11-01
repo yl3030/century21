@@ -17,7 +17,10 @@
                 <div class="recc-content">
                     <div class="row">
                         <div class="col-md-6">
-                            <div class="main-pic"><img src="./public/img/case-pic-3.png" alt=""></div>
+                            <div class="main-pic">
+                            <img src="/images/a1.png">
+                            
+                            </div>
                         </div>
                         <div class="col-md-6">
                             <ul class="case-list">
@@ -30,13 +33,32 @@
                         </div>
                         <div class="col-12 mt-4">
                             <div class="case-intro">
-                                <img src="./public/img/case-pic-4.png" alt="">
+                                <img src="/images/a2.png">
+                                <img src="/images/a3.png">
+                                <img src="/images/a4.png">
+                                <img src="/images/a5.png">
+                                <img src="/images/a6.png">
+                                <img src="/images/a7.jpg">
+                                <img src="/images/a8.jpg">
+                                <img src="/images/a9.jpg">
+                                <img src="/images/a10.jpg">
                                 <p>
                                 「達麗創世紀」位於台中市北屯區順平二街與順平路口，由達麗建設事業股份有限公司投資興建，吳六合建築師事務所建築設計基地面積4790坪、建蔽率47.22％、公設比34%樓層規劃為7棟地上9層，地下2層建築，共有600戶住家，39戶店面，格局坪數規劃二房(21坪) 、 三房(36坪) 、 2+1房(28坪)。
                                 </p>
                                 <p>車位共規劃有672個平面車位，結構採RC鋼筋混凝土。</p>
                                 <p>周邊環境，步行約5分鐘即可抵達學區大鵬國小，距大德國中約4分鐘車程，步行約3分鐘可至老樹公園，距水湳中央公園約3分鐘車程，生活採買方面，步行約2分鐘可達全聯福利中心-台中大鵬店，距水湳市場約4分鐘車程，車程約7~8分鐘可達家樂福-青海店、大潤發-忠明店。</p>
                                 <p>交通方面有國道一號及74快速道路可利用，輕鬆往來南北。</p>
+                                <h5>交通出行</h5>
+                                <p>捷運系統：G7站</p>
+								<p>高速公路：國道一號</p>
+								<p>快速道路：74號快速道路</p>
+                                <h5>周邊配套</h5>
+								<p>學區：大鵬國小、大德國中</p>
+								<p>超商/賣場：全聯福利中心、家樂福便利購</p>
+								<p>傳統市場：水湳市場</p>
+								<p>公共建設：中央公園、老樹公園</p>
+								<p>熱門商圈：中清路商圈、逢甲商圈</p>
+								<p>其他：水湳智慧城</p>
                             </div>
                         </div>
                     </div>
@@ -49,12 +71,14 @@
 <!-- 第一則 end -->
 
 <!-- 第二則 -->
+<!--
 <div class="modal fade case-popup" id="intro-popup-3_2" tabindex="-1" aria-labelledby="news-popupLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content position-relative">
             <div class="modal-header d-block px-4">
-                <div class="inner pb-3">
+                <div class="inner pb-3">-->
                     <!-- 標題 -->
+                    <!--
                     <h5 class="modal-title popup-title mb-0" id="news-popupLabel">
                         亞哥文青硯
                     </h5>
@@ -97,12 +121,14 @@
 <!-- 第二則 end -->
 
 <!-- 第三則 -->
+<!--
 <div class="modal fade case-popup" id="intro-popup-3_3" tabindex="-1" aria-labelledby="news-popupLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content position-relative">
             <div class="modal-header d-block px-4">
                 <div class="inner pb-3">
                     <!-- 標題 -->
+                    <!--
                     <h5 class="modal-title popup-title mb-0" id="news-popupLabel">
                         惠宇觀市政
                     </h5>
@@ -145,12 +171,14 @@
 <!-- 第三則 end -->
 
 <!-- 第四則 -->
+<!--
 <div class="modal fade case-popup" id="intro-popup-3_4" tabindex="-1" aria-labelledby="news-popupLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content position-relative">
             <div class="modal-header d-block px-4">
                 <div class="inner pb-3">
                     <!-- 標題 -->
+                    <!--
                     <h5 class="modal-title popup-title mb-0" id="news-popupLabel">
                         精銳FUN未來
                     </h5>
@@ -190,12 +218,14 @@
 <!-- 第四則 end -->
 
 <!-- 第五則 -->
+<!--
 <div class="modal fade case-popup" id="intro-popup-3_5" tabindex="-1" aria-labelledby="news-popupLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content position-relative">
             <div class="modal-header d-block px-4">
                 <div class="inner pb-3">
                     <!-- 標題 -->
+                    <!--
                     <h5 class="modal-title popup-title mb-0" id="news-popupLabel">
                     遠雄寬寓
                     </h5>
@@ -239,12 +269,14 @@
 <!-- 第五則 end -->
 
 <!-- 第六則 -->
+<!--
 <div class="modal fade case-popup" id="intro-popup-3_6" tabindex="-1" aria-labelledby="news-popupLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content position-relative">
             <div class="modal-header d-block px-4">
                 <div class="inner pb-3">
                     <!-- 標題 -->
+                    <!--
                     <h5 class="modal-title popup-title mb-0" id="news-popupLabel">
                         達麗創世紀
                     </h5>
@@ -287,12 +319,14 @@
 <!-- 第六則 end -->
 
 <!-- 第七則 -->
+<!--
 <div class="modal fade case-popup" id="intro-popup-3_7" tabindex="-1" aria-labelledby="news-popupLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content position-relative">
             <div class="modal-header d-block px-4">
                 <div class="inner pb-3">
                     <!-- 標題 -->
+                    <!--
                     <h5 class="modal-title popup-title mb-0" id="news-popupLabel">
                     遠雄寬寓
                     </h5>
@@ -336,12 +370,14 @@
 <!-- 第七則 end -->
 
 <!-- 第八則 -->
+<!--
 <div class="modal fade case-popup" id="intro-popup-3_8" tabindex="-1" aria-labelledby="news-popupLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content position-relative">
             <div class="modal-header d-block px-4">
                 <div class="inner pb-3">
                     <!-- 標題 -->
+                    <!--
                     <h5 class="modal-title popup-title mb-0" id="news-popupLabel">
                         達麗創世紀
                     </h5>

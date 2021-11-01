@@ -26,7 +26,7 @@ $("*").each(function () {
 var swiper = new Swiper(".RSwiper", {
   slidesPerView: 1,
   spaceBetween: 20,
-  slidesPerGroup: 2,
+//   slidesPerGroup: 2,
   observer: true,
   observeSlideChildren: true,
   observeParents: true,

@@ -20,19 +20,213 @@
             <div class="modal-body">
                 <div class="news-content">
                     <!-- 內容 -->
-                    <img src="./public/img/case-pic-4.png" alt="">
-                    <p>
-                    「達麗創世紀」位於台中市北屯區順平二街與順平路口，由達麗建設事業股份有限公司投資興建，吳六合建築師事務所建築設計基地面積4790坪、建蔽率47.22％、公設比34%樓層規劃為7棟地上9層，地下2層建築，共有600戶住家，39戶店面，格局坪數規劃二房(21坪) 、 三房(36坪) 、 2+1房(28坪)。
-                    </p>
-                    <p>
-                    車位共規劃有672個平面車位，結構採RC鋼筋混凝土。
-                    </p>
-                    <p>
-                    周邊環境，步行約5分鐘即可抵達學區大鵬國小，距大德國中約4分鐘車程，步行約3分鐘可至老樹公園，距水湳中央公園約3分鐘車程，生活採買方面，步行約2分鐘可達全聯福利中心-台中大鵬店，距水湳市場約4分鐘車程，車程約7~8分鐘可達家樂福-青海店、大潤發-忠明店。
-                    </p>
-                    <p>
-                    交通方面有國道一號及74快速道路可利用，輕鬆往來南北。
-                    </p>
+                    <table class="table-common">
+                        <tr class="table-title">
+                            <td class="table-item">項目</td>
+                            <td class="table-intro">說明</td>
+                        </tr>
+                        <tr>
+                            <td class="table-item">短期套利者課重稅</td>
+                            <td class="table-intro">
+                                <p class="mb-4">延長個人短期炒不動產適用高稅率的持有期間</p>
+                                <div class="mb-4">
+                                    <p class="mb-2">1.境內居住者</p>
+                                    <table class="table-second d-sm-table d-none">
+                                        <tr class="table-title">
+                                            <td>適用稅率</td>
+                                            <td>修法前持有期間</td>
+                                            <td>修法後持有期間</td>
+                                        </tr>
+                                        <tr>
+                                            <td>45%</td>
+                                            <td>1年以內</td>
+                                            <td>2年以內</td>
+                                        </tr>
+                                        <tr>
+                                            <td>35%</td>
+                                            <td>超過1年未逾2年</td>
+                                            <td>超過2年未逾5年</td>
+                                        </tr>
+                                        <tr>
+                                            <td>20%</td>
+                                            <td>超過2年未逾10年</td>
+                                            <td>超過5年未逾10年</td>
+                                        </tr>
+                                        <tr>
+                                            <td>15%</td>
+                                            <td>超過10年</td>
+                                            <td>超過10年</td>
+                                        </tr>
+                                    </table>
+                                    <div class="d-sm-none d-block w-100">
+                                        <table class="table-third mb-3">
+                                            <tr>
+                                                <td class="table-title">適用稅率</td>
+                                                <td class="table-content">45%</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="table-title">修法前持有期間</td>
+                                                <td class="table-content">1年以內</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="table-title">修法後持有期間</td>
+                                                <td class="table-content">2年以內</td>
+                                            </tr>
+                                        </table>
+                                        <table class="table-third mb-3">
+                                            <tr>
+                                                <td class="table-title">適用稅率</td>
+                                                <td class="table-content">35%</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="table-title">修法前持有期間</td>
+                                                <td class="table-content">超過1年未逾2年</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="table-title">修法後持有期間</td>
+                                                <td class="table-content">超過2年未逾5年</td>
+                                            </tr>
+                                        </table>
+                                        <table class="table-third mb-3">
+                                            <tr>
+                                                <td class="table-title">適用稅率</td>
+                                                <td class="table-content">20%</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="table-title">修法前持有期間</td>
+                                                <td class="table-content">超過2年未逾10年</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="table-title">修法後持有期間</td>
+                                                <td class="table-content">超過5年未逾10年</td>
+                                            </tr>
+                                        </table>
+                                        <table class="table-third">
+                                            <tr>
+                                                <td class="table-title">適用稅率</td>
+                                                <td class="table-content">15%</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="table-title">修法前持有期間</td>
+                                                <td class="table-content">超過10年</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="table-title">修法後持有期間</td>
+                                                <td class="table-content">超過10年</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div>
+                                    <p class="mb-2">2.非境內居住者</p>
+                                    <table class="table-second d-sm-table d-none">
+                                        <tr class="table-title">
+                                            <td>適用稅率</td>
+                                            <td>修法前持有期間</td>
+                                            <td>修法後持有期間</td>
+                                        </tr>
+                                        <tr>
+                                            <td>45%</td>
+                                            <td>1年以內</td>
+                                            <td>2年以內</td>
+                                        </tr>
+                                        <tr>
+                                            <td>35%</td>
+                                            <td>超過1年</td>
+                                            <td>超過2年</td>
+                                        </tr>
+                                    </table>
+                                    <div class="d-sm-none d-block w-100">
+                                        <table class="table-third mb-3">
+                                            <tr>
+                                                <td class="table-title">適用稅率</td>
+                                                <td class="table-content">45%</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="table-title">修法前持有期間</td>
+                                                <td class="table-content">1年以內</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="table-title">修法後持有期間</td>
+                                                <td class="table-content">2年以內</td>
+                                            </tr>
+                                        </table>
+                                        <table class="table-third mb-3">
+                                            <tr>
+                                                <td class="table-title">適用稅率</td>
+                                                <td class="table-content">35%</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="table-title">修法前持有期間</td>
+                                                <td class="table-content">超過1年</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="table-title">修法後持有期間</td>
+                                                <td class="table-content">超過2年</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="table-item">法人比照個人課稅</td>
+                            <td class="table-intro">
+                                <p class="fw-bold">營利事業依持有期間按差別稅率分開計稅(45%、35%、20%)，防止個人藉設立營利事業短期交易來避稅</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="table-item">擴大房地合一的課稅範圍</td>
+                            <td class="table-intro">
+                                <p>增列兩項課稅標的，防止透過移轉型態來避稅</p>
+                                <ul>
+                                    <li>1.交易預售屋及其坐落基地</li>
+                                    <li>2.交易持股(或出資額)過半數營利事業的股份(或出資額)，且該營利事業股權(或出資額)價值50%以上是由我國境內房地構成</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="table-item">土地漲價總數額增設減除上限</td>
+                            <td class="table-intro">
+                                <p class="fw-bold">
+                                    防止利用土增稅與所得稅稅率差異來避稅<br>
+                                    課稅基礎＝房地收入－成本－費用－土地漲價總數額<br>
+                                    土地漲價總數額減除上限＝交易當年度公告土地現值－前次移轉現值
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="table-item">五種交易不受影響</td>
+                            <td class="table-intro">
+                                <ul>
+                                    <li class="mb-3">
+                                        <p class="fw-bold">1.維持稅率20%</p>
+                                        <ul>
+                                            <li class="ps-3">- 個人及營利事業非自願因素(如調職、房地遭強制執行)交易</li>
+                                            <li class="ps-3">- 個人及營利事業以自有土地與建商合建分回房地交易</li>
+                                            <li class="ps-3">- 個人及營利事業參與都更或危老重建取得房地後第一次移轉</li>
+                                            <li class="ps-3">- 營利事業興建房屋完成後第一次移轉</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <p class="fw-bold">2.維持稅率10%</p>
+                                        <ul>
+                                            <li class="ps-3">- 自住房地持有並設籍滿6年(課稅所得400萬元以下免稅)</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="table-item">適用日期</td>
+                            <td class="table-intro">
+                                <p class="fw-bold">
+                                    (110)年7月1日起開始適用：<br>
+                                    110年7月1日起交易出售105年1月1日以後取得的房地，就要適用房地合一稅2.0的規定。
+                                </p>
+                            </td>
+                        </tr>
+                    </table>
                 </div>
             </div>
         </div>

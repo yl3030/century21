@@ -73,14 +73,14 @@
       <!-- banner -->
       <div class="banner position-relative">
         <img
-          src="./public/img/case-pic-2.png"
+          src="./public/img/banner-pc.png"
           alt=""
-          class="d-sm-block d-none pic"
+          class="d-sm-block d-none pic w-100"
         />
         <img
-          src="./public/img/case-pic-3.png"
+          src="./public/img/banner-mobile.png"
           alt=""
-          class="d-sm-none d-block pic"
+          class="d-sm-none d-block pic w-100"
         />
         <img
           class="w-100 position-absolute style-bg"
@@ -90,10 +90,10 @@
       </div>
 
       <!-- 最新消息 -->
-      <div class="news pb-100" id="news">
+      <div class="news pb-100 pt-40" id="news">
         <h2 class="title">最新消息</h2>
         <div>
-            <!-- 第一則 -->
+          <!-- 第一則 -->
           <div class="news news-group" data-bs-toggle="modal" data-bs-target="#news-popup-1">
             <div class="news-flex">
               <div class="news-flex-date">
@@ -181,7 +181,7 @@
       <!-- 推薦好案 -->
       <div class="reccomand" id="recc">
         <img class="style-bg w-100" src="./public/img/bg-style-2.svg" alt="" />
-        <h2 class="title">推薦好案</h2>
+        <h2 class="title pt-40">推薦好案</h2>
         <div class="pb-100">
           <div class="swiper-box">
             <div class="swiper-container RSwiper">
@@ -379,7 +379,7 @@
       <?php include("./reccomand-popup.php"); ?>
 
       <!-- 案件介紹 -->
-      <div class="introduce" id="intro">
+      <div class="introduce pt-40" id="intro">
         <h2 class="title">案件介紹</h2>
 
         <ul class="nav nav-tabs intro-tab" id="introTab" role="tablist">
@@ -793,8 +793,8 @@
 
       <!-- 聯絡我們 -->
       <div class="contact" id="contact">
-        <img class="w-100" src="./public/img/bg-style-2.svg" alt="" />
-        <h2 class="title">聯絡我們</h2>
+        <img class="w-100 mt-n2" src="./public/img/bg-style-2.svg" alt="" />
+        <h2 class="title pt-40">聯絡我們</h2>
         <div class="container">
           <div class="row align-items-center">
             <div class="col-lg-6 d-lg-block d-none">
