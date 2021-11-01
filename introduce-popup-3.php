@@ -33,15 +33,14 @@
                         </div>
                         <div class="col-12 mt-4">
                             <div class="case-intro">
-                                <img src="/images/a2.png">
-                                <img src="/images/a3.png">
-                                <img src="/images/a4.png">
-                                <img src="/images/a5.png">
-                                <img src="/images/a6.png">
-                                <img src="/images/a7.jpg">
-                                <img src="/images/a8.jpg">
-                                <img src="/images/a9.jpg">
-                                <img src="/images/a10.jpg">
+                                <div class="pic-box">
+                                    <div class="pic"><img src="./public/img/case-pic-4.png"></div>
+                                    <div class="pic"><img src="./public/img/case-pic-1.png"></div>
+                                    <div class="pic"><img src="./public/img/case-pic-2.png"></div>
+                                    <div class="pic"><img src="./public/img/case-pic-3.png"></div>
+                                    <div class="pic"><img src="./public/img/banner-mobile.png"></div>
+                                    <div class="pic"><img src="./public/img/banner-pc.png"></div>
+                                </div>
                                 <p>
                                 「達麗創世紀」位於台中市北屯區順平二街與順平路口，由達麗建設事業股份有限公司投資興建，吳六合建築師事務所建築設計基地面積4790坪、建蔽率47.22％、公設比34%樓層規劃為7棟地上9層，地下2層建築，共有600戶住家，39戶店面，格局坪數規劃二房(21坪) 、 三房(36坪) 、 2+1房(28坪)。
                                 </p>

@@ -54,7 +54,7 @@ body {
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
     .news-content,
     .case-intro {
-      img {
+      >img {
         max-width: 100%;
         margin: 20px 0;
         display: inline-block;
@@ -72,6 +72,23 @@ body {
         font-weight: 700;
         color: $main-blue;
         padding-top: 10px;
+      }
+      .pic-box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .pic {
+          width: calc(50% - 8px);
+          position: relative;
+          padding-bottom: calc((50% - 8px)*0.6);
+          margin-bottom: 15px;
+          img {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            object-fit: cover;
+          }
+        }
       }
     }
   }
@@ -755,6 +772,18 @@ footer {
       }
     } 
   }
+  .modal-dialog {
+    .modal-content {
+      .case-intro {
+        .pic-box {
+          .pic {
+            width: 100%;
+            padding-bottom: 60%;
+          }
+        } 
+      } 
+    } 
+  } 
 }
 
 @media screen and (max-width: 450px) {
