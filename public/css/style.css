@@ -511,6 +511,42 @@ table.table-third .table-content {
   width: 13px;
 }
 
+.reccomand .swiper-box .RSwiper .recc .content .content-box .case-name {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  letter-spacing: 1.5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  padding: 0 15px 15px;
+  text-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+  width: 100%;
+}
+
+.reccomand .swiper-box .RSwiper .recc .content .content-box .price {
+  color: #fff;
+  position: absolute;
+  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.55);
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.55);
+  padding: 10px 15px;
+  top: 8px;
+  left: 0;
+  background-color: #eba80e;
+  font-size: 18px;
+  font-weight: 700;
+}
+
 .reccomand .swiper-box .RSwiper .recc .content .content-box:hover .pic {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);

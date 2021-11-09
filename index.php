@@ -203,14 +203,16 @@
                           alt=""
                         />
                         <div class="hover-box"></div>
-                        <div class="recc-title d-flex align-items-center">
+                        <!-- <div class="recc-title d-flex align-items-center">
                           <h4 class="m-0">達麗創世紀</h4>
                           <img
                             class="arrow"
                             src="./public/img/arrow-white.svg"
                             alt=""
                           />
-                        </div>
+                        </div> -->
+                        <div class="case-name">舊社公園松竹捷運大3房</div>
+                        <div class="price">890萬</div>
                       </div>
                     </div>
                     <!-- 第一則 end -->
@@ -224,14 +226,12 @@
                           alt=""
                         />
                         <div class="hover-box"></div>
-                        <div class="recc-title d-flex align-items-center">
+                        <!-- <div class="recc-title d-flex align-items-center">
                           <h4 class="m-0">亞哥文青硯</h4>
-                          <img
-                            class="arrow"
-                            src="./public/img/arrow-white.svg"
-                            alt=""
-                          />
-                        </div>
+                          <img class="arrow" src="./public/img/arrow-white.svg" alt=""/>
+                        </div> -->
+                        <div class="case-name">舊社公園松竹捷運大3房</div>
+                        <div class="price">890萬</div>
                       </div>
                     </div>
                     <!-- 第二則 end -->
@@ -248,14 +248,12 @@
                           alt=""
                         />
                         <div class="hover-box"></div>
-                        <div class="recc-title d-flex align-items-center">
+                        <!-- <div class="recc-title d-flex align-items-center">
                           <h4 class="m-0">惠宇觀市政</h4>
-                          <img
-                            class="arrow"
-                            src="./public/img/arrow-white.svg"
-                            alt=""
-                          />
-                        </div>
+                          <img class="arrow" src="./public/img/arrow-white.svg" alt=""/>
+                        </div> -->
+                        <div class="case-name">舊社公園松竹捷運大3房</div>
+                        <div class="price">890萬</div>
                       </div>
                     </div>
                     <!-- 第三則 end -->
@@ -269,14 +267,12 @@
                           alt=""
                         />
                         <div class="hover-box"></div>
-                        <div class="recc-title d-flex align-items-center">
+                        <!-- <div class="recc-title d-flex align-items-center">
                           <h4 class="m-0">精銳FUN未來</h4>
-                          <img
-                            class="arrow"
-                            src="./public/img/arrow-white.svg"
-                            alt=""
-                          />
-                        </div>
+                          <img class="arrow" src="./public/img/arrow-white.svg" alt=""/>
+                        </div> -->
+                        <div class="case-name">舊社公園松竹捷運大3房</div>
+                        <div class="price">890萬</div>
                       </div>
                     </div>
                     <!-- 第四則 end -->
@@ -293,14 +289,12 @@
                           alt=""
                         />
                         <div class="hover-box"></div>
-                        <div class="recc-title d-flex align-items-center">
+                        <!-- <div class="recc-title d-flex align-items-center">
                           <h4 class="m-0">遠雄寬寓</h4>
-                          <img
-                            class="arrow"
-                            src="./public/img/arrow-white.svg"
-                            alt=""
-                          />
-                        </div>
+                          <img class="arrow" src="./public/img/arrow-white.svg" alt=""/>
+                        </div> -->
+                        <div class="case-name">舊社公園松竹捷運大3房</div>
+                        <div class="price">890萬</div>
                       </div>
                     </div>
                     <!-- 第五則 end -->
@@ -314,14 +308,12 @@
                           alt=""
                         />
                         <div class="hover-box"></div>
-                        <div class="recc-title d-flex align-items-center">
+                        <!-- <div class="recc-title d-flex align-items-center">
                           <h4 class="m-0">達麗創世紀</h4>
-                          <img
-                            class="arrow"
-                            src="./public/img/arrow-white.svg"
-                            alt=""
-                          />
-                        </div>
+                          <img class="arrow" src="./public/img/arrow-white.svg" alt=""/>
+                        </div> -->
+                        <div class="case-name">舊社公園松竹捷運大3房</div>
+                        <div class="price">890萬</div>
                       </div>
                     </div>
                     <!-- 第六則 end -->
@@ -338,14 +330,12 @@
                           alt=""
                         />
                         <div class="hover-box"></div>
-                        <div class="recc-title d-flex align-items-center">
+                        <!-- <div class="recc-title d-flex align-items-center">
                           <h4 class="m-0">亞哥文青硯</h4>
-                          <img
-                            class="arrow"
-                            src="./public/img/arrow-white.svg"
-                            alt=""
-                          />
-                        </div>
+                          <img class="arrow" src="./public/img/arrow-white.svg" alt=""/>
+                        </div> -->
+                        <div class="case-name">舊社公園松竹捷運大3房</div>
+                        <div class="price">890萬</div>
                       </div>
                     </div>
                     <!-- 第七則 end -->
@@ -359,14 +349,12 @@
                           alt=""
                         />
                         <div class="hover-box"></div>
-                        <div class="recc-title d-flex align-items-center">
+                        <!-- <div class="recc-title d-flex align-items-center">
                           <h4 class="m-0">惠宇觀市政</h4>
-                          <img
-                            class="arrow"
-                            src="./public/img/arrow-white.svg"
-                            alt=""
-                          />
-                        </div>
+                          <img class="arrow" src="./public/img/arrow-white.svg" alt=""/>
+                        </div> -->
+                        <div class="case-name">舊社公園松竹捷運大3房</div>
+                        <div class="price">890萬</div>
                       </div>
                     </div>
                     <!-- 第八則 end -->
