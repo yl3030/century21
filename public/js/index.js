@@ -23,6 +23,11 @@ $("*").each(function () {
   });
 });
 
+$(".check_item").click(function(){
+  console.log("勾選！");
+  $(this).toggleClass("active");
+})
+
 var swiper = new Swiper(".RSwiper", {
   slidesPerView: 1,
   spaceBetween: 20,
@@ -49,5 +54,6 @@ var swiper = new Swiper(".RSwiper", {
     },
   },
 });
+
 
 

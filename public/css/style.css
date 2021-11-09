@@ -248,6 +248,18 @@ main {
   bottom: -1px;
 }
 
+.banner .link-box {
+  position: absolute;
+  right: 8vw;
+  top: 11.5vw;
+}
+
+.banner .link-box img {
+  height: 2.5vw;
+  margin-bottom: 10px;
+  display: block;
+}
+
 .title {
   text-align: center;
   color: #ed7700;
@@ -685,27 +697,128 @@ table.table-third .table-content {
   margin: 0;
 }
 
+.contact {
+  background-image: url(../img/contact-bg.png);
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  padding-bottom: 120px;
+}
+
 .contact .pic img {
   width: 70%;
   display: block;
   margin: 0 auto;
 }
 
-.contact form {
-  padding-bottom: 50px;
-}
-
-.contact form p {
+.contact .welcome {
   background-color: #367cc9;
   color: #fff;
   font-weight: bold;
   font-size: 20px;
-  margin: 0;
+  margin: 0 auto 35px;
   padding: 10px 14px;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  margin-bottom: 42px;
+  text-align: center;
+}
+
+.contact form {
+  max-width: 930px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 55px 70px;
+  -webkit-box-shadow: 0 3px 25px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 3px 25px rgba(0, 0, 0, 0.15);
+  background-color: #fff;
+}
+
+.contact form .contact_item {
+  margin-bottom: 25px;
+}
+
+.contact form .contact_item label {
+  margin-bottom: 13px;
+  font-weight: 600;
+}
+
+.contact form .contact_item .check {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.contact form .contact_item .check_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 30px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.contact form .contact_item .check_item .check_box {
+  width: 18px;
+  height: 18px;
+  border-radius: 4px;
+  border: 1px solid #F3CBA1;
+  background-color: #FFF7EF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  margin-right: 6px;
+}
+
+.contact form .contact_item .check_item .check_box img {
+  width: 80%;
+  opacity: 0;
+}
+
+.contact form .contact_item .check_item.active .check_box {
+  border-color: #f8ae62;
+  background-color: #f8ae62;
+}
+
+.contact form .contact_item .check_item.active .check_box img {
+  opacity: 1;
+}
+
+.contact form .contact_item.price .input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contact form .contact_item.price .input input {
+  width: calc(100% - 40px);
+}
+
+.contact form .contact_item.price .input span {
+  width: 30px;
+  display: block;
 }
 
 .contact form input,
@@ -714,7 +827,6 @@ table.table-third .table-content {
   height: 45px;
   padding: 10px;
   width: 100%;
-  margin-bottom: 20px;
   border: 0;
   outline: none;
 }
@@ -744,8 +856,8 @@ table.table-third .table-content {
 }
 
 .contact form button {
-  -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.25);
-          box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.15);
   padding: 7px 15px;
   background-color: #f8ae62;
   color: #fff;
@@ -753,6 +865,8 @@ table.table-third .table-content {
   border: 0;
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
+  display: block;
+  margin: 40px auto 0;
 }
 
 .contact form button:hover {
@@ -768,11 +882,12 @@ table.table-third .table-content {
 footer {
   background-color: #b9a694;
   color: #fff;
+  position: relative;
 }
 
 footer span,
 footer a {
-  font-size: 15px;
+  font-size: 17px;
   color: #fff;
 }
 
@@ -783,6 +898,45 @@ footer img {
 
 footer img.icon-line {
   height: 22px;
+}
+
+footer .copyright {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  bottom: calc(100% + 15px);
+  right: 40px;
+}
+
+footer .copyright span {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+footer .copyright .logo-box {
+  display: block;
+  width: 120px;
+  height: 50px;
+  background-color: #fff;
+  margin-left: 10px;
+  -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+  background-image: url(../img/contrust-logo.png);
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 100px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+footer .copyright .logo-box:hover {
+  background-image: url(../img/contrust-logo-white.png);
+  background-color: #f8ae62;
 }
 
 @media screen and (max-width: 1100px) {
@@ -825,6 +979,9 @@ footer img.icon-line {
   .pb-100 {
     padding-bottom: 50px;
   }
+  .contact form {
+    padding: 40px;
+  }
 }
 
 @media screen and (max-width: 650px) {
@@ -839,6 +996,16 @@ footer img.icon-line {
 }
 
 @media screen and (max-width: 575px) {
+  .banner .link-box {
+    position: absolute;
+    right: 8vw;
+    top: 48vw;
+  }
+  .banner .link-box img {
+    height: 4vw;
+    margin-bottom: 8px;
+    display: block;
+  }
   .news .news-flex {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -884,6 +1051,9 @@ footer img.icon-line {
   .modal-dialog .modal-content .case-intro .pic-box .pic {
     width: 100%;
     padding-bottom: 60%;
+  }
+  .contact form {
+    padding: 40px 20px;
   }
 }
 

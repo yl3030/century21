@@ -82,6 +82,11 @@
           alt=""
           class="d-sm-none d-block pic w-100"
         />
+        <div class="link-box">
+          <a href="https://www.facebook.com/Dreamhouse.9213" target="_blank"><img src="./public/img/link-fb.png" alt=""></a>
+          <a href="https://line.me/ti/p/hHeLaoOc_N" target="_blank"><img src="./public/img/link-line.png" alt=""></a>
+          <a href="https://youtube.com/user/tyjf2943" target="_blank"><img src="./public/img/link-yt.png" alt=""></a>
+        </div>
         <img
           class="w-100 position-absolute style-bg"
           src="./public/img/bg-style-1.svg"
@@ -796,7 +801,7 @@
         <img class="w-100 mt-n2" src="./public/img/bg-style-2.svg" alt="" />
         <h2 class="title pt-40">聯絡我們</h2>
         <div class="container">
-          <div class="row align-items-center">
+          <!-- <div class="row align-items-center">
             <div class="col-lg-6 d-lg-block d-none">
               <div class="pic">
                 <img src="./public/img/character.png" alt="" />
@@ -823,12 +828,167 @@
                 />
               </form>
             </div>
-          </div>
+          </div> -->
+          <p class="welcome">如果您有任何需求，歡迎與我們聯繫</p>
+          <form class="contact_box">
+            <div class="contact_item">
+              <label>您想諮詢的服務項目</label>
+              <div class="check">
+                <div class="check_item">
+                  <div class="check_box"><img src="./public/img/check.svg" alt=""></div>
+                  <span>買房</span>
+                </div>
+                <div class="check_item">
+                  <div class="check_box"><img src="./public/img/check.svg" alt=""></div>
+                  <span>賣房</span>
+                </div>
+                <div class="check_item">
+                  <div class="check_box"><img src="./public/img/check.svg" alt=""></div>
+                  <span>租屋</span>
+                </div>
+                <div class="check_item">
+                  <div class="check_box"><img src="./public/img/check.svg" alt=""></div>
+                  <span>其他</span>
+                </div>
+              </div>
+            </div>
+            <div class="contact_item">
+              <label>您待購/待售的物件，在台中哪裡？</label>
+              <div class="check">
+                <div class="check_item">
+                  <div class="check_box"><img src="./public/img/check.svg" alt=""></div>
+                  <span>水湳經貿區</span>
+                </div>
+                <div class="check_item">
+                  <div class="check_box"><img src="./public/img/check.svg" alt=""></div>
+                  <span>北屯區</span>
+                </div>
+                <div class="check_item">
+                  <div class="check_box"><img src="./public/img/check.svg" alt=""></div>
+                  <span>西屯區</span>
+                </div>
+                <div class="check_item">
+                  <div class="check_box"><img src="./public/img/check.svg" alt=""></div>
+                  <span>南屯區</span>
+                </div>
+                <div class="check_item">
+                  <div class="check_box"><img src="./public/img/check.svg" alt=""></div>
+                  <span>南屯區</span>
+                </div>
+                <div class="check_item">
+                  <div class="check_box"><img src="./public/img/check.svg" alt=""></div>
+                  <span>北區</span>
+                </div>
+                <div class="check_item">
+                  <div class="check_box"><img src="./public/img/check.svg" alt=""></div>
+                  <span>西區</span>
+                </div>
+                <div class="check_item">
+                  <div class="check_box"><img src="./public/img/check.svg" alt=""></div>
+                  <span>東區</span>
+                </div>
+                <div class="check_item">
+                  <div class="check_box"><img src="./public/img/check.svg" alt=""></div>
+                  <span>南區</span>
+                </div>
+                <div class="check_item">
+                  <div class="check_box"><img src="./public/img/check.svg" alt=""></div>
+                  <span>中區</span>
+                </div>
+                <div class="check_item">
+                  <div class="check_box"><img src="./public/img/check.svg" alt=""></div>
+                  <span>其他</span>
+                </div>
+              </div>
+            </div>
+            <div class="contact_item">
+              <label>房型規劃</label>
+              <div class="check">
+                <div class="check_item">
+                  <div class="check_box"><img src="./public/img/check.svg" alt=""></div>
+                  <span>1房</span>
+                </div>
+                <div class="check_item">
+                  <div class="check_box"><img src="./public/img/check.svg" alt=""></div>
+                  <span>2房</span>
+                </div>
+                <div class="check_item">
+                  <div class="check_box"><img src="./public/img/check.svg" alt=""></div>
+                  <span>3房</span>
+                </div>
+                <div class="check_item">
+                  <div class="check_box"><img src="./public/img/check.svg" alt=""></div>
+                  <span>4房</span>
+                </div>
+                <div class="check_item">
+                  <div class="check_box"><img src="./public/img/check.svg" alt=""></div>
+                  <span>透天</span>
+                </div>
+                <div class="check_item">
+                  <div class="check_box"><img src="./public/img/check.svg" alt=""></div>
+                  <span>其他</span>
+                </div>
+              </div>
+            </div>
+            <div class="contact_item">
+              <label>車位需求</label>
+              <div class="check">
+                <div class="check_item">
+                  <div class="check_box"><img src="./public/img/check.svg" alt=""></div>
+                  <span>平面車位</span>
+                </div>
+                <div class="check_item">
+                  <div class="check_box"><img src="./public/img/check.svg" alt=""></div>
+                  <span>機械車位</span>
+                </div>
+                <div class="check_item">
+                  <div class="check_box"><img src="./public/img/check.svg" alt=""></div>
+                  <span>無車位皆可</span>
+                </div>
+                <div class="check_item">
+                  <div class="check_box"><img src="./public/img/check.svg" alt=""></div>
+                  <span>其他</span>
+                </div>
+              </div>
+            </div>
+            <div class="contact_item price">
+              <label for="">預算/售價</label>
+              <div class="input">
+                <input type="text"><span>萬</span>
+              </div>
+            </div>
+            <div class="contact_item">
+              <label for="">姓名</label>
+              <input type="text">
+            </div>
+            <div class="contact_item">
+              <label for="">行動電話</label>
+              <input type="phone">
+            </div>
+            <div class="contact_item">
+              <label for="">LINE ID (純訊息回覆-不受語音打擾)</label>
+              <input type="text">
+            </div>
+            <div class="contact_item">
+              <label for="">EMAIL</label>
+              <input type="email">
+            </div>
+            <div class="contact_item">
+              <label for="">想補充些什麼</label>
+              <textarea name="" id="" cols="30" rows="10"></textarea>
+            </div>
+
+            <button>送出</button>
+          </form>
         </div>
       </div>
     </main>
 
     <footer class="pt-3">
+      <div class="copyright">
+        <span>© 2021 - Designed by</span>
+        <a href="#" class="logo-box"></a>
+      </div>
       <div class="container">
         <div
           class="d-flex align-items-center justify-content-between flex-wrap"
