@@ -24,8 +24,10 @@ $("*").each(function () {
 });
 
 $(".check_item").click(function(){
-  console.log("勾選！");
   $(this).toggleClass("active");
+})
+$(".check_label").click(function(){
+  $(this).parents(".check_item").toggleClass("active");
 })
 
 var swiper = new Swiper(".RSwiper", {

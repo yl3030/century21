@@ -779,6 +779,11 @@ table.table-third .table-content {
   font-weight: 600;
 }
 
+.contact form .contact_item .must {
+  color: #c82525;
+  margin-left: 5px;
+}
+
 .contact form .contact_item .check {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -802,6 +807,11 @@ table.table-third .table-content {
   margin-bottom: 10px;
 }
 
+.contact form .contact_item .check_item label {
+  margin-bottom: 0;
+  font-weight: normal;
+}
+
 .contact form .contact_item .check_item .check_box {
   width: 18px;
   height: 18px;
@@ -820,10 +830,20 @@ table.table-third .table-content {
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
   margin-right: 6px;
+  position: relative;
 }
 
 .contact form .contact_item .check_item .check_box img {
   width: 80%;
+  opacity: 0;
+}
+
+.contact form .contact_item .check_item .check_box input {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
   opacity: 0;
 }
 
@@ -891,10 +911,10 @@ table.table-third .table-content {
   height: auto;
 }
 
-.contact form button {
+.contact form #btnSubmit {
   -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.15);
-  padding: 7px 15px;
+  padding: 7px 25px;
   background-color: #f8ae62;
   color: #fff;
   font-weight: bold;
@@ -903,9 +923,12 @@ table.table-third .table-content {
   transition: 0.3s ease-in-out;
   display: block;
   margin: 40px auto 0;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
-.contact form button:hover {
+.contact form #btnSubmit:hover {
   background-color: #ed7700;
 }
 

@@ -195,44 +195,28 @@
                   <div class="recc d-flex flex-wrap">
 
                     <!-- 第一則 -->
-                    <div class="content" data-bs-toggle="modal" data-bs-target="#recc-popup-1">
-                      <div class="content-box">
-                        <img
-                          class="pic"
-                          src="./public/img/case-pic-4.png"
-                          alt=""
-                        />
-                        <div class="hover-box"></div>
-                        <!-- <div class="recc-title d-flex align-items-center">
-                          <h4 class="m-0">達麗創世紀</h4>
-                          <img
-                            class="arrow"
-                            src="./public/img/arrow-white.svg"
-                            alt=""
-                          />
-                        </div> -->
-                        <div class="case-name">舊社公園松竹捷運大3房</div>
-                        <div class="price">890萬</div>
-                      </div>
+                    <div class="content">
+                      <a target="_blank" href="https://manage.foresightrealtors.com.tw/api/CaseView.aspx?share=c61em4-d65faa96-9a4d-482f-8f1a-b73080548b70">
+                        <div class="content-box">
+                          <img class="pic" src="./public/img/case-pic-4.png" alt=""/>
+                          <div class="hover-box"></div>
+                          <div class="case-name">舊社公園松竹捷運大3房</div>
+                          <div class="price">890萬</div>
+                        </div>
+                      </a>
                     </div>
                     <!-- 第一則 end -->
 
                     <!-- 第二則 -->
                     <div class="content" data-bs-toggle="modal" data-bs-target="#recc-popup-2">
-                      <div class="content-box">
-                        <img
-                          class="pic"
-                          src="./public/img/case-pic-1.png"
-                          alt=""
-                        />
-                        <div class="hover-box"></div>
-                        <!-- <div class="recc-title d-flex align-items-center">
-                          <h4 class="m-0">亞哥文青硯</h4>
-                          <img class="arrow" src="./public/img/arrow-white.svg" alt=""/>
-                        </div> -->
-                        <div class="case-name">舊社公園松竹捷運大3房</div>
-                        <div class="price">890萬</div>
-                      </div>
+                      <a target="_blank" href="https://manage.foresightrealtors.com.tw/api/CaseView.aspx?share=c61em4-d65faa96-9a4d-482f-8f1a-b73080548b70">
+                        <div class="content-box">
+                          <img class="pic" src="./public/img/case-pic-4.png" alt=""/>
+                          <div class="hover-box"></div>
+                          <div class="case-name">舊社公園松竹捷運大3房</div>
+                          <div class="price">890萬</div>
+                        </div>
+                      </a>
                     </div>
                     <!-- 第二則 end -->
                   </div>
@@ -241,39 +225,27 @@
                   <div class="recc d-flex flex-wrap">
                     <!-- 第三則 -->
                     <div class="content" data-bs-toggle="modal" data-bs-target="#recc-popup-3">
-                      <div class="content-box">
-                        <img
-                          class="pic"
-                          src="./public/img/case-pic-4.png"
-                          alt=""
-                        />
-                        <div class="hover-box"></div>
-                        <!-- <div class="recc-title d-flex align-items-center">
-                          <h4 class="m-0">惠宇觀市政</h4>
-                          <img class="arrow" src="./public/img/arrow-white.svg" alt=""/>
-                        </div> -->
-                        <div class="case-name">舊社公園松竹捷運大3房</div>
-                        <div class="price">890萬</div>
-                      </div>
+                      <a target="_blank" href="https://manage.foresightrealtors.com.tw/api/CaseView.aspx?share=c61em4-d65faa96-9a4d-482f-8f1a-b73080548b70">
+                        <div class="content-box">
+                          <img class="pic" src="./public/img/case-pic-4.png" alt=""/>
+                          <div class="hover-box"></div>
+                          <div class="case-name">舊社公園松竹捷運大3房</div>
+                          <div class="price">890萬</div>
+                        </div>
+                      </a>
                     </div>
                     <!-- 第三則 end -->
 
                     <!-- 第四則 -->
                     <div class="content" data-bs-toggle="modal" data-bs-target="#recc-popup-4">
-                      <div class="content-box">
-                        <img
-                          class="pic"
-                          src="./public/img/case-pic-3.png"
-                          alt=""
-                        />
-                        <div class="hover-box"></div>
-                        <!-- <div class="recc-title d-flex align-items-center">
-                          <h4 class="m-0">精銳FUN未來</h4>
-                          <img class="arrow" src="./public/img/arrow-white.svg" alt=""/>
-                        </div> -->
-                        <div class="case-name">舊社公園松竹捷運大3房</div>
-                        <div class="price">890萬</div>
-                      </div>
+                      <a target="_blank" href="https://manage.foresightrealtors.com.tw/api/CaseView.aspx?share=c61em4-d65faa96-9a4d-482f-8f1a-b73080548b70">
+                        <div class="content-box">
+                          <img class="pic" src="./public/img/case-pic-4.png" alt=""/>
+                          <div class="hover-box"></div>
+                          <div class="case-name">舊社公園松竹捷運大3房</div>
+                          <div class="price">890萬</div>
+                        </div>
+                      </a>
                     </div>
                     <!-- 第四則 end -->
                   </div>
@@ -282,39 +254,27 @@
                   <div class="recc d-flex flex-wrap">
                     <!-- 第五則 -->
                     <div class="content" data-bs-toggle="modal" data-bs-target="#recc-popup-5">
-                      <div class="content-box">
-                        <img
-                          class="pic"
-                          src="./public/img/case-pic-4.png"
-                          alt=""
-                        />
-                        <div class="hover-box"></div>
-                        <!-- <div class="recc-title d-flex align-items-center">
-                          <h4 class="m-0">遠雄寬寓</h4>
-                          <img class="arrow" src="./public/img/arrow-white.svg" alt=""/>
-                        </div> -->
-                        <div class="case-name">舊社公園松竹捷運大3房</div>
-                        <div class="price">890萬</div>
-                      </div>
+                      <a target="_blank" href="https://manage.foresightrealtors.com.tw/api/CaseView.aspx?share=c61em4-d65faa96-9a4d-482f-8f1a-b73080548b70">
+                        <div class="content-box">
+                          <img class="pic" src="./public/img/case-pic-4.png" alt=""/>
+                          <div class="hover-box"></div>
+                          <div class="case-name">舊社公園松竹捷運大3房</div>
+                          <div class="price">890萬</div>
+                        </div>
+                      </a>
                     </div>
                     <!-- 第五則 end -->
 
                     <!-- 第六則 -->
                     <div class="content" data-bs-toggle="modal" data-bs-target="#recc-popup-6">
-                      <div class="content-box">
-                        <img
-                          class="pic"
-                          src="./public/img/case-pic-4.png"
-                          alt=""
-                        />
-                        <div class="hover-box"></div>
-                        <!-- <div class="recc-title d-flex align-items-center">
-                          <h4 class="m-0">達麗創世紀</h4>
-                          <img class="arrow" src="./public/img/arrow-white.svg" alt=""/>
-                        </div> -->
-                        <div class="case-name">舊社公園松竹捷運大3房</div>
-                        <div class="price">890萬</div>
-                      </div>
+                      <a target="_blank" href="https://manage.foresightrealtors.com.tw/api/CaseView.aspx?share=c61em4-d65faa96-9a4d-482f-8f1a-b73080548b70">
+                        <div class="content-box">
+                          <img class="pic" src="./public/img/case-pic-4.png" alt=""/>
+                          <div class="hover-box"></div>
+                          <div class="case-name">舊社公園松竹捷運大3房</div>
+                          <div class="price">890萬</div>
+                        </div>
+                      </a>
                     </div>
                     <!-- 第六則 end -->
                   </div>
@@ -323,39 +283,27 @@
                   <div class="recc d-flex flex-wrap">
                     <!-- 第七則 -->
                     <div class="content" data-bs-toggle="modal" data-bs-target="#recc-popup-7">
-                      <div class="content-box">
-                        <img
-                          class="pic"
-                          src="./public/img/case-pic-4.png"
-                          alt=""
-                        />
-                        <div class="hover-box"></div>
-                        <!-- <div class="recc-title d-flex align-items-center">
-                          <h4 class="m-0">亞哥文青硯</h4>
-                          <img class="arrow" src="./public/img/arrow-white.svg" alt=""/>
-                        </div> -->
-                        <div class="case-name">舊社公園松竹捷運大3房</div>
-                        <div class="price">890萬</div>
-                      </div>
+                      <a target="_blank" href="https://manage.foresightrealtors.com.tw/api/CaseView.aspx?share=c61em4-d65faa96-9a4d-482f-8f1a-b73080548b70">
+                        <div class="content-box">
+                          <img class="pic" src="./public/img/case-pic-4.png" alt=""/>
+                          <div class="hover-box"></div>
+                          <div class="case-name">舊社公園松竹捷運大3房</div>
+                          <div class="price">890萬</div>
+                        </div>
+                      </a>
                     </div>
                     <!-- 第七則 end -->
 
                     <!-- 第八則 -->
                     <div class="content" data-bs-toggle="modal" data-bs-target="#recc-popup-8">
-                      <div class="content-box">
-                        <img
-                          class="pic"
-                          src="./public/img/case-pic-4.png"
-                          alt=""
-                        />
-                        <div class="hover-box"></div>
-                        <!-- <div class="recc-title d-flex align-items-center">
-                          <h4 class="m-0">惠宇觀市政</h4>
-                          <img class="arrow" src="./public/img/arrow-white.svg" alt=""/>
-                        </div> -->
-                        <div class="case-name">舊社公園松竹捷運大3房</div>
-                        <div class="price">890萬</div>
-                      </div>
+                      <a target="_blank" href="https://manage.foresightrealtors.com.tw/api/CaseView.aspx?share=c61em4-d65faa96-9a4d-482f-8f1a-b73080548b70">
+                        <div class="content-box">
+                          <img class="pic" src="./public/img/case-pic-4.png" alt=""/>
+                          <div class="hover-box"></div>
+                          <div class="case-name">舊社公園松竹捷運大3房</div>
+                          <div class="price">890萬</div>
+                        </div>
+                      </a>
                     </div>
                     <!-- 第八則 end -->
                   </div>
@@ -789,184 +737,225 @@
         <img class="w-100 mt-n2" src="./public/img/bg-style-2.svg" alt="" />
         <h2 class="title pt-40">聯絡我們</h2>
         <div class="container">
-          <!-- <div class="row align-items-center">
-            <div class="col-lg-6 d-lg-block d-none">
-              <div class="pic">
-                <img src="./public/img/character.png" alt="" />
-              </div>
-            </div>
-            <div class="col-lg-6 col-12">
-              <form action="" class="position-relative">
-                <p>如果您有任何需求，歡迎與我們聯繫</p>
-                <input placeholder="姓名" type="text" />
-                <input placeholder="手機號碼/聯絡電話" type="phone" />
-                <input placeholder="信箱" type="email" />
-                <textarea
-                  placeholder="留言內容"
-                  name=""
-                  id=""
-                  cols="30"
-                  rows="5"
-                ></textarea>
-                <button>送出</button>
-                <img
-                  class="character d-lg-none d-block position-absolute"
-                  src="./public/img/character.png"
-                  alt=""
-                />
-              </form>
-            </div>
-          </div> -->
+
           <p class="welcome">如果您有任何需求，歡迎與我們聯繫</p>
-          <form class="contact_box">
+          <form class="contact_box" method="post" action="index.php" name="frmMessage" id="frmMessage" enctype="application/x-www-form-urlencoded">
             <div class="contact_item">
-              <label>您想諮詢的服務項目</label>
+              <label>您想諮詢的服務項目<span class="must">*</span></label>
               <div class="check">
                 <div class="check_item">
-                  <div class="check_box"><img src="./public/img/check.svg" alt=""></div>
-                  <span>買房</span>
+                  <div class="check_box">
+                    <img src="./public/img/check.svg" alt="">
+                    <input name="chkService[]" type="checkbox" id="chkService1" value="買房">
+                  </div>
+                  <label class="check_label" for="chkService1">買房</label>
                 </div>
                 <div class="check_item">
-                  <div class="check_box"><img src="./public/img/check.svg" alt=""></div>
-                  <span>賣房</span>
+                  <div class="check_box">
+                    <img src="./public/img/check.svg" alt="">
+                    <input name="chkService[]" type="checkbox" id="chkService2" value="賣房">
+                  </div>
+                  <label class="check_label" for="chkService2">賣房</label>
                 </div>
                 <div class="check_item">
-                  <div class="check_box"><img src="./public/img/check.svg" alt=""></div>
-                  <span>租屋</span>
+                  <div class="check_box">
+                    <img src="./public/img/check.svg" alt="">
+                    <input name="chkService[]" type="checkbox" id="chkService3" value="租屋">
+                  </div>
+                  <label class="check_label" for="chkService3">租屋</label>
                 </div>
                 <div class="check_item">
-                  <div class="check_box"><img src="./public/img/check.svg" alt=""></div>
-                  <span>其他</span>
+                  <div class="check_box">
+                    <img src="./public/img/check.svg" alt="">
+                    <input name="chkService[]" type="checkbox" id="chkService4" value="其他">
+                  </div>
+                  <label class="check_label" for="chkService4">其他</label>
                 </div>
               </div>
             </div>
             <div class="contact_item">
-              <label>您待購/待售的物件，在台中哪裡？</label>
+              <label>您待購/待售的物件，在台中哪裡？<span class="must">*</span></label>
               <div class="check">
                 <div class="check_item">
-                  <div class="check_box"><img src="./public/img/check.svg" alt=""></div>
-                  <span>水湳經貿區</span>
+                  <div class="check_box">
+                    <img src="./public/img/check.svg" alt="">
+                    <input name="chkLocation[]" type="checkbox" id="chkLocation1" value="水湳經貿區">
+                  </div>
+                  <label class="check_label" for="chkLocation1">水湳經貿區</label>
                 </div>
                 <div class="check_item">
-                  <div class="check_box"><img src="./public/img/check.svg" alt=""></div>
-                  <span>北屯區</span>
+                  <div class="check_box">
+                    <img src="./public/img/check.svg" alt="">
+                    <input name="chkLocation[]" type="checkbox" id="chkLocation2" value="北屯區">
+                  </div>
+                  <label class="check_label" for="chkLocation2">北屯區</label>
                 </div>
                 <div class="check_item">
-                  <div class="check_box"><img src="./public/img/check.svg" alt=""></div>
-                  <span>西屯區</span>
+                  <div class="check_box">
+                    <img src="./public/img/check.svg" alt="">
+                    <input name="chkLocation[]" type="checkbox" id="chkLocation3" value="西屯區">
+                  </div>
+                  <label class="check_label" for="chkLocation3">西屯區</label>
                 </div>
                 <div class="check_item">
-                  <div class="check_box"><img src="./public/img/check.svg" alt=""></div>
-                  <span>南屯區</span>
+                  <div class="check_box">
+                    <img src="./public/img/check.svg" alt="">
+                    <input name="chkLocation[]" type="checkbox" id="chkLocation4" value="南屯區">
+                  </div>
+                  <label class="check_label" for="chkLocation4">南屯區</label>
+                </div>
+
+                <div class="check_item">
+                  <div class="check_box">
+                    <img src="./public/img/check.svg" alt="">
+                    <input name="chkLocation[]" type="checkbox" id="chkLocation6" value="北區">
+                  </div>
+                  <label class="check_label" for="chkLocation6">北區</label>
                 </div>
                 <div class="check_item">
-                  <div class="check_box"><img src="./public/img/check.svg" alt=""></div>
-                  <span>南屯區</span>
+                  <div class="check_box">
+                    <img src="./public/img/check.svg" alt="">
+                    <input name="chkLocation[]" type="checkbox" id="chkLocation7" value="西區">
+                  </div>
+                  <label class="check_label" for="chkLocation7">西區</label>
                 </div>
                 <div class="check_item">
-                  <div class="check_box"><img src="./public/img/check.svg" alt=""></div>
-                  <span>北區</span>
+                  <div class="check_box">
+                    <img src="./public/img/check.svg" alt="">
+                    <input name="chkLocation[]" type="checkbox" id="chkLocation8" value="東區">
+                  </div>
+                  <label class="check_label" for="chkLocation8">東區</label>
                 </div>
                 <div class="check_item">
-                  <div class="check_box"><img src="./public/img/check.svg" alt=""></div>
-                  <span>西區</span>
+                  <div class="check_box">
+                    <img src="./public/img/check.svg" alt="">
+                    <input name="chkLocation[]" type="checkbox" id="chkLocation9" value="南區">
+                  </div>
+                  <label class="check_label" for="chkLocation9">南區</label>
                 </div>
                 <div class="check_item">
-                  <div class="check_box"><img src="./public/img/check.svg" alt=""></div>
-                  <span>東區</span>
+                  <div class="check_box">
+                    <img src="./public/img/check.svg" alt="">
+                    <input name="chkLocation[]" type="checkbox" id="chkLocation10" value="中區">
+                  </div>
+                  <label class="check_label" for="chkLocation10">中區</label>
                 </div>
                 <div class="check_item">
-                  <div class="check_box"><img src="./public/img/check.svg" alt=""></div>
-                  <span>南區</span>
-                </div>
-                <div class="check_item">
-                  <div class="check_box"><img src="./public/img/check.svg" alt=""></div>
-                  <span>中區</span>
-                </div>
-                <div class="check_item">
-                  <div class="check_box"><img src="./public/img/check.svg" alt=""></div>
-                  <span>其他</span>
+                  <div class="check_box">
+                    <img src="./public/img/check.svg" alt="">
+                    <input name="chkLocation[]" type="checkbox" id="chkLocation11" value="其他">
+                  </div>
+                  <label class="check_label" for="chkLocation11">其他</label>
                 </div>
               </div>
             </div>
             <div class="contact_item">
-              <label>房型規劃</label>
+              <label>房型規劃<span class="must">*</span></label>
               <div class="check">
                 <div class="check_item">
-                  <div class="check_box"><img src="./public/img/check.svg" alt=""></div>
-                  <span>1房</span>
+                  <div class="check_box">
+                    <img src="./public/img/check.svg" alt="">
+                    <input name="chkHouse[]" type="checkbox" id="chkHouse1" value="1房">
+                  </div>
+                  <label class="check_label" for="chkHouse1">1房</label>
                 </div>
                 <div class="check_item">
-                  <div class="check_box"><img src="./public/img/check.svg" alt=""></div>
-                  <span>2房</span>
+                  <div class="check_box">
+                    <img src="./public/img/check.svg" alt="">
+                    <input name="chkHouse[]" type="checkbox" id="chkHouse2" value="2房">
+                  </div>
+                  <label class="check_label" for="chkHouse2">2房</label>
                 </div>
                 <div class="check_item">
-                  <div class="check_box"><img src="./public/img/check.svg" alt=""></div>
-                  <span>3房</span>
+                  <div class="check_box">
+                    <img src="./public/img/check.svg" alt="">
+                    <input name="chkHouse[]" type="checkbox" id="chkHouse3" value="3房">
+                  </div>
+                  <label class="check_label" for="chkHouse3">3房</label>
                 </div>
                 <div class="check_item">
-                  <div class="check_box"><img src="./public/img/check.svg" alt=""></div>
-                  <span>4房</span>
+                  <div class="check_box">
+                    <img src="./public/img/check.svg" alt="">
+                    <input name="chkHouse[]" type="checkbox" id="chkHouse4" value="4房">
+                  </div>
+                  <label class="check_label" for="chkHouse4">4房</label>
                 </div>
                 <div class="check_item">
-                  <div class="check_box"><img src="./public/img/check.svg" alt=""></div>
-                  <span>透天</span>
+                  <div class="check_box">
+                    <img src="./public/img/check.svg" alt="">
+                    <input name="chkHouse[]" type="checkbox" id="chkHouse5" value="透天">
+                  </div>
+                  <label class="check_label" for="chkHouse5">透天</label>
                 </div>
                 <div class="check_item">
-                  <div class="check_box"><img src="./public/img/check.svg" alt=""></div>
-                  <span>其他</span>
+                  <div class="check_box">
+                    <img src="./public/img/check.svg" alt="">
+                    <input name="chkHouse[]" type="checkbox" id="chkHouse6" value="其他">
+                  </div>
+                  <label class="check_label" for="chkHouse6">其他</label>
                 </div>
               </div>
             </div>
             <div class="contact_item">
-              <label>車位需求</label>
+              <label>車位需求<span class="must">*</span></label>
               <div class="check">
                 <div class="check_item">
-                  <div class="check_box"><img src="./public/img/check.svg" alt=""></div>
-                  <span>平面車位</span>
+                  <div class="check_box">
+                    <img src="./public/img/check.svg" alt="">
+                    <input name="chkCar[]" type="checkbox" id="chkCar1" value="平面車位">
+                  </div>
+                  <label class="check_label" for="chkCar1">平面車位</label>
                 </div>
                 <div class="check_item">
-                  <div class="check_box"><img src="./public/img/check.svg" alt=""></div>
-                  <span>機械車位</span>
+                  <div class="check_box">
+                    <img src="./public/img/check.svg" alt="">
+                    <input name="chkCar[]" type="checkbox" id="chkCar2" value="機械車位">
+                  </div>
+                  <label class="check_label" for="chkCar2">機械車位</label>
                 </div>
                 <div class="check_item">
-                  <div class="check_box"><img src="./public/img/check.svg" alt=""></div>
-                  <span>無車位皆可</span>
+                  <div class="check_box">
+                    <img src="./public/img/check.svg" alt="">
+                    <input name="chkCar[]" type="checkbox" id="chkCar3" value="無車位皆可">
+                  </div>
+                  <label class="check_label" for="chkCar3">無車位皆可</label>
                 </div>
                 <div class="check_item">
-                  <div class="check_box"><img src="./public/img/check.svg" alt=""></div>
-                  <span>其他</span>
+                  <div class="check_box">
+                    <img src="./public/img/check.svg" alt="">
+                    <input name="chkCar[]" type="checkbox" id="chkCar4" value="其他">
+                  </div>
+                  <label class="check_label" for="chkCar4">其他</label>
                 </div>
               </div>
             </div>
             <div class="contact_item price">
-              <label for="">預算/售價</label>
+              <label for="">預算/售價<span class="must">*</span></label>
               <div class="input">
-                <input type="text"><span>萬</span>
+                <input type="text" name="txtBudget" id="txtBudget"><span>萬</span>
               </div>
             </div>
             <div class="contact_item">
-              <label for="">姓名</label>
-              <input type="text">
+              <label for="">姓名<span class="must">*</span></label>
+              <input type="text" name="txtName" id="txtName">
             </div>
             <div class="contact_item">
-              <label for="">行動電話</label>
-              <input type="phone">
+              <label for="">行動電話<span class="must">*</span></label>
+              <input type="phone" name="txtMobile" id="txtMobile">
             </div>
             <div class="contact_item">
               <label for="">LINE ID (純訊息回覆-不受語音打擾)</label>
-              <input type="text">
+              <input type="text" name="txtLine" id="txtLine">
             </div>
             <div class="contact_item">
               <label for="">EMAIL</label>
-              <input type="email">
+              <input type="email" name="txtEmail" id="txtEmail">
             </div>
             <div class="contact_item">
               <label for="">想補充些什麼</label>
-              <textarea name="" id="" cols="30" rows="10"></textarea>
+              <textarea name="txtMessage" id="txtMessage" cols="30" rows="10"></textarea>
             </div>
-
-            <button>送出</button>
+            <INPUT type="button" value="送出" id="btnSubmit" name="btnSubmit" onClick="checkForm();">
           </form>
         </div>
       </div>
