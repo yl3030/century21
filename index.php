@@ -72,26 +72,14 @@
     <main>
       <!-- banner -->
       <div class="banner position-relative">
-        <img
-          src="./public/img/banner-pc.png"
-          alt=""
-          class="d-sm-block d-none pic w-100"
-        />
-        <img
-          src="./public/img/banner-mobile.png"
-          alt=""
-          class="d-sm-none d-block pic w-100"
-        />
+        <img src="./public/img/banner-pc.png" alt="" class="d-sm-block d-none pic w-100"/>
+        <img src="./public/img/banner-mobile.png" alt="" class="d-sm-none d-block pic w-100"/>
         <div class="link-box">
           <a href="https://www.facebook.com/Dreamhouse.9213" target="_blank"><img src="./public/img/link-fb.png" alt=""></a>
           <a href="https://line.me/ti/p/hHeLaoOc_N" target="_blank"><img src="./public/img/link-line.png" alt=""></a>
           <a href="https://youtube.com/user/tyjf2943" target="_blank"><img src="./public/img/link-yt.png" alt=""></a>
         </div>
-        <img
-          class="w-100 position-absolute style-bg"
-          src="./public/img/bg-style-1.svg"
-          alt=""
-        />
+        <img class="w-100 position-absolute style-bg" src="./public/img/bg-style-1.svg" alt=""/>
       </div>
 
       <!-- 最新消息 -->

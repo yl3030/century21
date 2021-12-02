@@ -201,6 +201,7 @@ main {
   padding-top: 100px;
 }
 
+// banner
 .banner {
   width: 100%;
   position: relative;
@@ -220,6 +221,7 @@ main {
   }
 }
 
+// title
 .title {
   text-align: center;
   color: $main-orange;
@@ -230,6 +232,7 @@ main {
   letter-spacing: 0.05em;
 }
 
+// 最新消息
 .news {
   background-color: $bg-color;
   .news- {
@@ -292,6 +295,7 @@ main {
     left: 0;
   }
 }
+// 最新消息 popup
 .news-popup {
   .news-popup-date {
     font-size: 15px;
@@ -299,6 +303,7 @@ main {
   }
 }
 
+// 最新消息 - 表格
 table {
   width: 100%;
   td {
@@ -371,7 +376,7 @@ table {
   }
 }
 
-
+// 推薦好案
 .reccomand {
   background-image: url(../img/reccomand-bg.png);
   background-position: center center;
@@ -500,6 +505,7 @@ table {
     }
   }
 }
+// 案件介紹、推薦好案 - popup
 .case-popup {
   .main-pic {
     width: 100%;
@@ -525,6 +531,7 @@ table {
   }
 }
 
+// 案件介紹
 .introduce {
   background-color: $bg-color;
   .intro-tab {
@@ -619,6 +626,7 @@ table {
   }
 }
 
+// 聯絡我們
 .contact {
   background-image: url(../img/contact-bg.png);
   background-size: cover;
@@ -767,6 +775,7 @@ table {
   }
 }
 
+// foter
 footer {
   background-color: #b9a694;
   color: #fff;
@@ -815,6 +824,7 @@ footer {
   }
 }
 
+// 視窗寬度<=1100px
 @media screen and (max-width: 1100px) {
   .modal-dialog {
     .btn-close {
@@ -824,6 +834,7 @@ footer {
   }
 }
 
+// 視窗寬度<=1000px
 @media screen and (max-width: 1000px) {
   .reccomand {
     .swiper-box {
@@ -836,6 +847,7 @@ footer {
   }
 }
 
+// 視窗寬度<=767px
 @media screen and (max-width: 767px) {
   header {
     #menu-icon {
@@ -868,6 +880,7 @@ footer {
   } 
 }
 
+// 視窗寬度<=650px
 @media screen and (max-width: 650px) {
   .introduce {
     padding: 40px 10px;
@@ -877,6 +890,7 @@ footer {
   }
 }
 
+// 視窗寬度<=575px
 @media screen and (max-width: 575px) {
   .banner {
     .link-box {
@@ -968,6 +982,7 @@ footer {
   } 
 }
 
+// 視窗寬度<=450px
 @media screen and (max-width: 450px) {
   header {
     nav {
